@@ -3,11 +3,11 @@
 > AI 变现 / 副业 / 赚钱情报收集
 
 [![GitHub stars](https://img.shields.io/github/stars/fengurt/ai-money-secrets)](https://github.com/fengurt/ai-money-secrets)
-[![数据条数](https://img.shields.io/badge/数据条数-42-green)](secrets.json)
+[![数据条数](https://img.shields.io/badge/数据条数-45-green)](secrets.json)
 
 ## 📊 数据概览
 
-> 自动采集自网络，每日更新 | 最后更新: 2026-04-30
+> 自动采集自网络，每日更新 | 最后更新: 2026-05-01
 
 | 来源 | 条目数 |
 |------|--------|
