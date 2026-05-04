@@ -1,71 +1,62 @@
-# 🤖 AI Money Secrets
+# AI Money Secrets
 
-> AI 变现 / 副业 / 赚钱情报收集
-
-[![GitHub stars](https://img.shields.io/github/stars/fengurt/ai-money-secrets)](https://github.com/fengurt/ai-money-secrets)
-[![数据条数](https://img.shields.io/badge/数据条数-46-green)](secrets.json)
+AI赚钱/副业/变现情报收集。每日自动更新，汇总全网高质量AI副业实战案例与变现方法。
 
 ## 📊 数据概览
 
-> 自动采集自网络，每日更新 | 最后更新: 2026-05-03
+| 指标 | 数值 |
+|------|------|
+| 总条目数 | 25 |
+| 首次更新 | 2026-05-04 |
+| 最近更新 | 2026-05-04 |
 
-| 来源 | 条目数 |
-|------|--------|
-| 知乎 | 10 |
-| 少数派 | 9 |
-| CSDN博客 | 6 |
-| CSDN | 3 |
-| 博客园 | 2 |
-| 小U出海 | 2 |
-| 嘉达鸭 | 1 |
-| 腾讯新闻 | 1 |
-| 53AI | 1 |
-| AIGC导航 | 1 |
-| V2EX | 1 |
-| 翼狐网 | 1 |
-| xixi.ink | 1 |
-| 新浪财经 | 1 |
-| GitHub | 1 |
-| 知乎精选 | 1 |
-| 搜狐 | 1 |
-| 百度开发者中心 | 1 |
-| DeepSeek CSDN | 1 |
-| 证券时报 | 1 |
-
-## 📂 数据结构
-
-```json
-{
-  "title": "文章标题",
-  "url": "链接",
-  "description": "摘要描述",
-  "source": "来源网站",
-  "query": "搜索关键词",
-  "collected_at": "采集日期"
-}
-```
-
-## 📁 目录结构
+## 🗂️ 数据结构
 
 ```
-ai-money-secrets/
-├── secrets.json      # 所有情报数据
-├── README.md         # 本文件
-└── daily/            # 每日日志
-    ├── 2026-04-30.md
-    ├── 2026-05-01.md
-    ├── 2026-05-02.md
-    └── 2026-05-03.md
+├── secrets.json          # 完整数据（JSON格式）
+├── README.md             # 本索引文件
+└── daily/
+    └── YYYY-MM-DD.md     # 每日日报
 ```
 
-## 🔍 搜索关键词
+## 📈 关键词分布
 
-- site:sspai.com AI变现 副业 赚钱
-- AI副业 变现 方法 真实案例 2025
-- ChatGPT Midjourney 副业 变现 教程
-- AI独立开发者 赚钱 经验 2025
-- AI工具 副业赚钱 实战
+- `site:sspai.com AI变现 副业 赚钱` - 5条
+- `AI副业 变现 方法 真实案例 2025` - 5条
+- `ChatGPT Midjourney 副业 变现 教程` - 5条
+- `AI独立开发者 赚钱 经验 2025` - 5条
+- `AI工具 副业赚钱 实战` - 5条
+
+## 🔑 核心发现
+
+1. **AI独立开发者变现路径成熟** - Coze智能体→Zion应用→独立App，2024年已有人回本
+2. **数字人带货成为实操热点** - 案例显示账号积累39万粉丝，卖出21万+件商品
+3. **垂直赛道更有机会** - AI+宝宝起名、AI+国学私域、AI音乐等细分领域
+4. **独立开发者天花板** - Marc Lou年入103万美元，公开透明分享
+5. **技术人专属路径** - 智能客服系统5-20万/项目，BERT合同审核系统
+
+## 📰 来源分布
+
+- 少数派: 5条
+- 知乎: 10条
+- CSDN: 4条
+- 其他: 6条
+
+## 🚀 使用方式
+
+数据以JSON格式存储，可自行分析或导入其他工具。
+
+```bash
+# 查看全部数据
+cat secrets.json | jq
+
+# 按来源筛选
+cat secrets.json | jq '[.[] | select(.source == "知乎")]'
+
+# 按日期统计
+cat secrets.json | jq '[.[] | .collected_at]'
+```
 
 ---
 
-> 数据来源均为公开网络资源，仅供学习研究参考。
+自动更新于每日 09:00 (Asia/Shanghai)
