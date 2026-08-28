@@ -1,3 +1,5 @@
+
+
 # AI赚钱/副业/变现情报库
 
 > 持续收集AI变现、副业赚钱、独立开发者经验的优质内容
@@ -7,7 +9,7 @@
 - **最近更新**: 2026-08-28
 
 ## 📂 目录
-- [secrets.json](secrets.json) - 结构化数据（JSON格式）
+- [secrets.json](secrets.json) - 结构化数据（JSON格式，包含 title、url、description、source、query、collected_at 字段）
 - [daily/](daily/) - 每日日报
 
 ## 🔍 搜索关键词
@@ -19,4 +21,3 @@
 
 ## 📈 最新日报
 - [2026-08-28](daily/2026-08-28.md)
-
