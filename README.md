@@ -1,59 +1,46 @@
-# 💰 AI赚钱/副业/变现情报
+# AI Money Secrets 🤖💰
 
-> 持续收集AI副业、变现、独立开发相关的优质情报
+> 收集 AI 变现、副业、赚钱、创业相关的优质情报
 
-## 📊 数据统计
+## 项目简介
 
-- **情报总数**: 67条
-- **最后更新**: 2026-09-11
+本仓库用于持续收集和整理 AI 变现、副业赚钱相关的优质文章、教程、案例和工具推荐。数据来源于少数派、知乎、CSDN、36氪、腾讯新闻等行业平台。
 
-## 📚 分类索引
+## 数据文件
 
-### 按来源
+- **secrets.json** - 结构化数据（title、url、description、source、query、collected_at）
+- **daily/** - 每日采集日报
+- **README.md** - 本文件
 
-- **36氪**: 2条
-- **AIGC工具导航**: 2条
-- **CSDN博客**: 9条
-- **CSDN智能体开发者社区**: 1条
-- **DeepSeek技术社区**: 2条
-- **GitHub**: 1条
-- **MCP技术社区**: 2条
-- **OPC开发者社区**: 1条
-- **YouTube**: 2条
-- **aiyjs.com**: 2条
-- **iTech博客园**: 1条
-- **u-chuhai.com**: 2条
-- **zhuanlan.zhihu.com**: 1条
-- **小U出海**: 2条
-- **小报童**: 1条
-- **少数派**: 10条
-- **格赚**: 1条
-- **知乎**: 19条
-- **翼狐网**: 2条
-- **腾讯云开发者社区**: 1条
-- **腾讯新闻**: 3条
+## 统计数据
 
-### 按搜索词
+- **总计收录**: 68 条
+- **最近更新**: 2026-09-13
+- **今日新增**: 1 条
 
-- `AI副业 变现 方法 真实案例 2025`: 17条
-- `AI工具 副业赚钱 实战`: 15条
-- `AI独立开发者 赚钱 经验 2025`: 13条
-- `ChatGPT Midjourney 副业 变现 教程`: 12条
-- `site:sspai.com AI变现 副业 赚钱`: 10条
+## 数据来源分布
 
-## 🔗 最新收录
+- 知乎 (zhuanlan.zhihu.com)
+- 少数派 (sspai.com)
+- CSDN (blog.csdn.net / csdn.net)
+- 36氪 (36kr.com)
+- 腾讯新闻 (news.qq.com)
+- 翼狐网 (yiihuu.com)
+- 小U出海 (u-chuhai.com)
+- 其他技术社区
 
-- [AI副业合集 - 智能网创副业赚钱变现项目案例](https://www.aigc.cn/ai-sideline) - AIGC工具导航
-- [AI时代的秘密：为什么赚钱的人会用AI，不赚钱的人学不会AI（深度案例+实战洞察）](https://zhuanlan.zhihu.com/p/1952269492102074804) - 知乎
-- [AI副业|这3种通过AI副业赚钱的方式，2025起未来3年，普通人也可以实现逆袭！](https://blog.csdn.net/2401_84760719/article/details/148410765) - CSDN博客
-- [普通人用AI赚钱的10个方法（2025最新版）](https://zhuanlan.zhihu.com/p/1904922817243358481) - 知乎
-- [年入103万美元！AI 独立开发者天花板！普通人应如何实践？](https://news.qq.com/rain/a/20260107A07ECX00) - 腾讯新闻
-- [2026年程序员必看：6条AI独立开发实战路径，从0到月入3万+（收藏版）](https://blog.csdn.net/xxue345678/article/details/160917883) - CSDN博客
-- [2026年普通人做AI副业的完整实操指南（4条已验证路径，附工具和收益数据）](https://zhuanlan.zhihu.com/p/2032510322263733595) - 知乎
-- [人工智能风口下，如何利用AI绘画赚钱？（附MidJourney教程）](https://u-chuhai.com/index.php/2023/03/23/人工作智能风口下-如何利用ai绘画赚钱/) - u-chuhai.com
-- [2026 AI编程元年：那些率先转型的程序员，副业收入翻了10倍](https://zhuanlan.zhihu.com/p/2010023611164033077) - zhuanlan.zhihu.com
-- [人工智能风口下，如何利用AI绘画赚钱？（附MidJourney教程）](https://u-chuhai.com/index.php/2023/03/23/人工智能风口下-如何利用ai绘画赚钱/) - u-chuhai.com
+## 主要分类
+
+- AI 副业变现（写作、绘画、自动化等）
+- AI 独立开发者（创业、工具开发、营收案例）
+- ChatGPT / Midjourney 实战教程
+- AI 工具评测与推荐
+- 程序员转型与赚钱经验
+
+## 贡献指南
+
+本项目通过自动化采集持续更新，欢迎提交优质线索！
 
 ---
 
-_最后更新: 2026-09-11 by AI-Money-Secrets Collector_
+*本项目仅供学习研究使用，内容版权归原作者所有。*
